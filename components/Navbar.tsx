@@ -27,7 +27,7 @@ const FlyoutNav = () => {
       ${
         scrolled
           ? "bg-neutral-950 py-3 shadow-xl"
-          : "bg-neutral-500 py-6 shadow-none"
+          : "bg-neutral-800 py-6 shadow-none"
       }`}
     >
       <div className="mx-auto flex max-w-7xl items-center justify-between">
