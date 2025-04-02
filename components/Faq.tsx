@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { useState, ReactNode } from "react";
 import { FiChevronDown } from "react-icons/fi";
 import { motion } from "framer-motion";
 import useMeasure from "react-use-measure";
@@ -50,7 +50,7 @@ const Question = ({
   defaultOpen = false,
 }: {
   title: string;
-  children: JSX.Element;
+  children: ReactNode ;
   defaultOpen?: boolean;
 }) => {
   const [ref, { height }] = useMeasure();
@@ -71,7 +71,7 @@ const Question = ({
               color: "rgba(3, 6, 23, 0)",
             },
             closed: {
-              color: "rgba(3, 6, 23, 1)",
+              color: "rgba(3, 6, 23, 0)",
             },
           }}
           className="bg-gradient-to-r from-neutral-600 to-black bg-clip-text text-left text-lg font-medium"
@@ -82,7 +82,7 @@ const Question = ({
           variants={{
             open: {
               rotate: "180deg",
-              color: "rgb(124 58 237)",
+              color: "#333333",
             },
             closed: {
               rotate: "0deg",
