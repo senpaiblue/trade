@@ -27,7 +27,7 @@ const GradientButton: React.FC<GradientButtonProps> = ({ text, onClick }) => {
   return (
     <motion.button
       ref={buttonRef}
-      className="relative w-full max-w-md py-4 px-6 rounded-full text-white font-medium text-lg overflow-hidden bg-black mt-6"
+      className="relative w-full py-4 px-6 rounded-full text-white font-medium text-lg overflow-hidden bg-black mt-6"
       onClick={onClick}
       onMouseMove={handleMouseMove}
       onMouseEnter={() => setIsHovered(true)}
