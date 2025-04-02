@@ -4,7 +4,7 @@ import GradientButton from './Gradientbutton';
 
 const Home = () => {
   return (
-    <section className="bg-[#F1F1F3] md:flex-col md:flex rounded-2xl px-8 py-8 lg:flex lg:flex-row flex-col justify-between items-center min-h-[60vh]">
+    <section className="bg-[#F1F1F3] md:flex-col md:flex rounded-2xl px-8 lg:px-80 py-8 lg:flex lg:flex-row flex-col justify-between items-center min-h-[60vh]">
       <div className="max-w-2xl mx-auto md:mx-0 mb-8 md:mb-0">
         <p className="text-[#101828] pb-2">We help to</p>
         <h1 className="text-[#101828] font-semibold text-6xl">Save, Invest & Grow</h1>
